@@ -1,0 +1,308 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;700;900&display=swap");
+
+
+[class*="__container"] {
+	margin: 0px auto;
+}
+
+.appointment {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+    color: white;
+}
+.appointment__container {
+    max-width: 585px;
+    padding: 76px 58px;
+    background: #5D62B5;
+    border-radius: 40px;
+}
+.appointment__title {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 43px;
+}
+.first-form__items {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 22px;
+    margin-bottom: 22px;
+    justify-content: space-between;
+}
+
+.first-form__input {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px; 
+    background-color: #5D62B5;
+    padding: 17px 23px;  
+}
+.first-form__input::placeholder {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.first-form__select {
+    background-color: #5D62B5;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px; 
+    flex: 1 0 219px;
+    max-width: 219px;
+    min-height: 48px;
+    padding-left: 23px;
+    font-size: 16px;
+}
+.first-form__footer {
+    display: flex;
+    flex-direction: column;
+}
+.first-form__textarea {
+    width: 100%;
+    min-height: 180px;
+    max-height: 500px;
+    max-width: 470px;
+    background-color: #5D62B5;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px; 
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.first-form__textarea::placeholder {
+    color: #FFFFFF;
+    padding-top: 17px;
+    padding-left: 23px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+.first-form__button {
+    max-width: 210px;
+    align-self: flex-end;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 7px;
+    padding: 9px 30px;
+    background: #F2726F;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.first-form__button:hover {
+    transform: translate(0px, 3px);
+	box-shadow: 0 2px 0px rgba(0, 0, 0, 0.3);
+}
+.form-tech-online {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: black;
+}
+.registered {
+    padding-top: 50px;
+}
+.registered__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 564px;
+    background: #F5F7FF;
+    padding: 37px 57.5px 41px 57.5px;
+}
+.registered__title {
+    font-weight: 600;
+    font-size: 18px;
+}
+.registered__sub-title {
+    font-weight: 300;
+    line-height: 2.14;
+    align-items: center;
+    padding: 19px 0px;
+}
+.registered__form:not(:last-child) {
+    margin-bottom: 40px;
+}
+.second-form__email {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 2.1;
+    padding: 5px 0px;
+}
+.second-form__email label::after,
+.second-form__password label::after {
+    content: ' *';
+    color: rgba(201, 77, 63, 1);
+}
+.second-form__input {
+    padding: 17px;
+    font-weight: 300;
+    color: #A2A6B0;
+    border: 1px solid #A2A6B0;
+    border-radius: 4px;
+}
+.second-form__input:hover::placeholder {
+    transform: translate(-100%, 0px);
+}
+.second-form__input::placeholder {
+    transition: all 0.8s ease 0s;
+}
+.second-form__password {
+    display: flex;
+    flex-direction: column;
+}
+.registered__footer {
+    padding-top: 30px;
+}
+.registered__button {
+    background: #0156FF;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 19px 53px 16px 53px;
+    margin-right: 24px;
+    transition: all 0.3s ease 0s;
+}
+.registered__button:hover {
+    transform: translate(0px, 3px);
+	box-shadow: 0 2px 0px rgba(0, 0, 0, 0.3);
+}
+.registered__link {
+    display: inline-block;
+}
+.registered__link:hover {
+    transform: scale(1.1);
+}
+.summary {
+    padding-top: 50px;
+}
+.summary__container {
+    padding: 17px 32px;
+    max-width: 446px;
+    background: #F5F7FF;
+    display: flex;
+    flex-direction: column;
+}
+.summary__title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 18.5px;
+}
+.summary__sub-title {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.summary__text {
+    color: #666666;
+    max-width: 287px;
+}
+.third-form__select {
+    display: flex;
+    flex-direction: column;
+}
+.second-select {
+    border: 1px solid #A2A6B0;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+.summary__state {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.third-form__input {
+    border: 1px solid #A2A6B0;
+    border-radius: 4px;
+    padding: 15px;
+}
+.summary__postal-code {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 17px;
+}
+.radiobuttons__item {
+    position: relative;
+}
+.radiobuttons__text {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 2;
+}
+.radiobuttons__input {
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    opacity: 0;
+}
+.radiobuttons__input:focus + .radiobuttons__label {
+    outline: 1px solid white;
+}
+.radiobuttons__input:checked +  .radiobuttons__label::after {
+    transform: scale(1);
+}
+.radiobuttons__label {
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+}
+.radiobuttons__label::before {
+    flex: 0 0 16px;
+    content: "";
+    position: relative;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    background-color: #cdd3f6;
+    border-radius: 50%;
+    border: 1px solid #0156FF;
+}
+.radiobuttons__label::after {
+    flex: 0 0 8px;
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(38, 50, 110);
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.3s ease 0s;
+}
+.summary__discount-code {
+    font-size: 18px;
+    padding-top: 10px;
+}
+.summary__enter-code {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 19px;
+}
+.summary__button {
+    width: 100%;
+    border: 2px solid #0156FF;
+    padding: 15px 0px;
+    border-radius: 50px;
+    color: #0156FF;
+    font-weight: 600;
+    background: #F5F7FF;
+    cursor: pointer;
+}
+.summary__button:hover {
+    background: #d4daf3;
+}
